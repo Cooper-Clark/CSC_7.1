@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <script src="pig.js"></script>
+    <!-- this is an HTML comment! Woah! It's for CSC102 1.2
+    By Cooper Clark
+    Email: cooperclarkbusiness@gmail.com -->
+    <title>
+    Games!
+    </title>
+
+    <nav>
+
+        <center><div>
+            <h2>Navigation!</h2>
+            <a href="./CSC102-1.02.html">Home</a><br>
+            <a href="./boards.html">Course Objectives</a><br>
+            <a href="./game.html">Games</a><br>
+            <a href="./strings.html">Games</a><br>
+        </div></center>
+
+	</nav>
+
+    <body>
+        <!-- This is the Title -->
+        How to play the game of Pig. (doesn't work)<br>
+        Random player goes first. <br>
+        On each of their turns, each player rolls a die then adds it's result to their total points. <br>
+        After adding the result to their total points, the player may choose to roll again or pass the turn. <br>
+        If at any point the player rolls a 1 on the die, they immediately lose. <br>
+
+        Once everyone has taken a turn, the player with the most points wins. <br>
+        <br>
+
+        <button onclick="resetPig()"> Play Pig with two other bozos</button> <br>
+
+        <button onclick="rollPig()"> Roll the Die</button> <br>
+
+        <button onclick="endPig()"> End Turn</button> <br>
+        Die Result: <div id="dieresult"> </div> <br>
+        Your Total: <div id="usertotal"> </div> <br>
+        <br>
+        Bozo 1 Total: <div id="bozo1total"> </div> <br>
+        Bozo 2 Total: <div id="bozo2total"> </div> <br>
+        Game Result: <div id="game result"> </div>
+
+        <br><br><br><br>
+
+        The game of Craps. <br>
+         <br>
+         <button onclick="craps()"> Play Craps</button> <br>
+         Die 1 Result: <div id="d1"> </div> <br>
+         Die 2 Result: <div id="d2"> </div> <br>
+         Total: <div id="sum"> </div> <br>
+         Game Result: <div id="crapsgameresult"> </div> <br>
+        
+    </body>
+</html>
